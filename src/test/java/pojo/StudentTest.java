@@ -26,5 +26,8 @@ public class StudentTest extends TestCase {
 		Student student = ac.getBean("student", Student.class);
 		System.out.println(student);*/
 		System.out.println(student);
+		System.out.println(student);
+		System.out.println(student);
+		System.out.println(student);
 	}
 }
