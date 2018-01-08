@@ -15,6 +15,8 @@ public class StudentTest extends TestCase {
 	
 	@Autowired
 	private Clazz clazz = null;
+	@Autowired
+	private Student student = null;
 
 	@Test
 	public void testStudent() {
@@ -23,5 +25,6 @@ public class StudentTest extends TestCase {
 		/*ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Student student = ac.getBean("student", Student.class);
 		System.out.println(student);*/
+		System.out.println(student);
 	}
 }
